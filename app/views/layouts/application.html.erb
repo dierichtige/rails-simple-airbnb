@@ -13,8 +13,22 @@
 
   <body>
     <div class="title d-flex justify-content-between py-3 px-3">
-      <p id="left-title"><%= link_to "Simple Airbnb", flats_path %></p>
-      <p id="right-title"><%= link_to "Add Flat", new_flat_path %></p>
+      <div>
+        <p id="left-title"><%= link_to "Simple Airbnb", flats_path %></p>
+      </div>
+      <div class="d-flex">
+        <div>
+          <%= form_tag flats_path, :method => 'get', :class => "form-group" do %>
+            <div class="input-group">
+              <%= text_field_tag :query %>
+              <span class="input-group-btn mx-2"><%= submit_tag 'Search' %></span>
+            </div>
+          <% end %>
+        </div>
+        <div>
+          <p class="btn btn-outline-secondary" id="right-title"><%= link_to "Add Flat", new_flat_path %></p>
+        </div>
+      </div>
     </div>
       <%= yield %>
   </body>

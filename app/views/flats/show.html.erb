@@ -1,0 +1,51 @@
+<div class="banner">
+</div>
+<div class="cards bi-col page-container">
+
+    <div class="cards mono-col">
+      <div class="card background-grey shadow-sm p-3 m-2 justify-content-center d-flex">
+        <h2><%= @flat.name %></h2>
+        <p class="lead"><%= @flat.address %></p>
+      </div>
+      <div class="card background-grey p-3 m-2 shadow-sm">
+        <h3>A bit more about this flat</h3>
+        <p><%= @flat.description %></p>
+      </div>
+    </div>
+    <div class="cards mono-col">
+      <div class="card background-grey m-2 p-3 shadow-sm">
+        <h4>Book this place!</h4>
+        <form>
+          <div class="mb-3">
+            <label for="startDate" class="form-label">From:</label>
+            <input type="date" class="form-control" id="startDate">
+          </div>
+          <div class="mb-3">
+            <label for="endDate" class="form-label">To:</label>
+            <input type="date" class="form-control" id="endDate">
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+      </div>
+      <div class="card background-grey m-2 p-3 shadow-sm">
+        <h3>Details</h3>
+        <div>
+          <p class="d-inline card-inline-spacing"><%= @flat.number_of_guests %> people</p>
+          <p class="d-inline"><%= @flat.price_per_night %>€</p>
+        </div>
+      </div>
+      <div class="card background-grey m-2 p-3 shadow-sm">
+        <div class=" d-flex justify-content-between">
+          <div class="d-inline my-auto">
+              <h4>Share</h3>
+          </div>
+          <div class="d-inline my-auto">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-pinterest"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>

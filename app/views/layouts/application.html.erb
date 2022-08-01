@@ -12,6 +12,10 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="title d-flex justify-content-between py-3 px-3">
+      <p id="left-title"><%= link_to "Simple Airbnb", flats_path %></p>
+      <p id="right-title"><%= link_to "Add Flat", new_flat_path %></p>
+    </div>
+      <%= yield %>
   </body>
 </html>

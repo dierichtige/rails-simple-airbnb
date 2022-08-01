@@ -1,0 +1,31 @@
+.cards {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tri-col {
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start;
+}
+
+.bi-col {
+  grid-template-columns: 2fr 1fr;
+}
+
+.mono-col {
+  grid-template-columns: 1fr;
+  margin-top: -6rem;
+  align-items: auto;
+  padding-bottom: 1rem;
+  grid-template-rows: auto auto 1fr;
+}
+
+.background-grey {
+  background-color: #F8F9FA;
+}
+
+.card-inline-spacing {
+  margin-right: 1rem;
+}

@@ -1,5 +1,5 @@
 <div class="page-container">
-  <h2>All our flats <%= "(#{@flats.count})" %></h2>
+  <h2>All our flats (<%= "#{@flats.count}" %><%= " - You searched '#{params[:query]}'" if params[:query] %>) </h2>
   <div class="cards tri-col">
     <% @flats.each do |flat| %>
       <div class="card m-3 shadow-sm">

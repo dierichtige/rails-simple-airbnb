@@ -16,7 +16,8 @@ Flat.create!(
   address: '10 Clifton Gardens London W9 1DT',
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 75,
-  number_of_guests: 3
+  number_of_guests: 3,
+  picture_url: "https://images.unsplash.com/photo-1628744448840-55bdb2497bd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 )
 
 Flat.create!(
@@ -24,7 +25,8 @@ Flat.create!(
   address: 'Schönau a. Königssee',
   description: 'Herzlich Willkommen im Alpen-Nationalpark Berchtesgaden. Unsere Alpenpension liegt umgeben von einer traumhaften Bergkette in der Schönau a. Königssee. Unser Haus verfügt über 11 Zimmer und einer Ferienwohnung. Komfortabel und modern ausgestattet sorgen sie für einen erholsamen Urlaub.',
   price_per_night: 150,
-  number_of_guests: 2
+  number_of_guests: 2,
+  picture_url: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 )
 
 Flat.create!(
@@ -34,7 +36,8 @@ Flat.create!(
 
   Das Doppelzimmer bietet direkten Zugang zum Garten und zum Wald. In der Suite erwartet Sie eine Dachterrasse mit Aussicht auf den Bodensee.',
   price_per_night: 60,
-  number_of_guests: 4
+  number_of_guests: 4,
+  picture_url: "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 )
 
 Flat.create!(
@@ -44,7 +47,8 @@ Flat.create!(
 
   In der Nähe des Apartments können Sie wandern oder auf der Sonnenterrasse entspannen.',
   price_per_night: 100,
-  number_of_guests: 2
+  number_of_guests: 2,
+  picture_url: "https://images.unsplash.com/photo-1571977547180-de7d159f7104?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 )
 
 Flat.create!(
@@ -54,7 +58,8 @@ Flat.create!(
 
   Die Drosselgasse liegt 3,5 km vom Apartment entfernt. Der nächstgelegene Flughafen ist der 44 km von der Ferienwohnung - a67931 entfernte Flughafen Frankfurt-Hahn',
   price_per_night: 85,
-  number_of_guests: 2
+  number_of_guests: 2,
+  picture_url: "https://images.unsplash.com/photo-1581974206939-b42731ea9dc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 )
 
 puts "Finished!"

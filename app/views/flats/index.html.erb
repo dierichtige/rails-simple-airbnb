@@ -3,6 +3,7 @@
   <div class="cards tri-col">
     <% @flats.each do |flat| %>
       <div class="card m-3 shadow-sm">
+        <img class="card-img-top" src=<%= flat.picture_url %> alt="image of flat">
         <div class="p-3 background-grey">
           <h4><%= flat.name %></h4>
           <p><%= flat.address %></p>
